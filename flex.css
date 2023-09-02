@@ -1,0 +1,79 @@
+.container{
+    border: dotted 2px aqua;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.container > div {
+    border: solid 2px aqua;
+    border-radius: 5px;
+}
+.one{
+    flex-basis: 100px;
+    flex-grow: 0px;      /* flex grow on for available space*/
+}
+.two{
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.three{
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+
+
+
+/*flex container*/
+.box{ /*deficent space*/
+    border: dotted 2px aqua;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*fits to next line*/
+    flex-flow: row wrap; /*shorthend for flexdirection and wrap*/
+}
+.box > div {
+    border: solid 2px aqua;
+    border-radius: 5px;
+}
+/*flex item*/
+.one1{
+    flex-basis: 200px;
+    flex-shrink: 0;        /* flex grow on for available space*/
+}
+.two2{
+    flex: 0 0 200px;   /*flex grow, shrink, basis (flex-shortend)*/
+}
+.three3{
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+.box1{  /* available space*/
+    border: dotted 2px aqua;
+    width: 500px;
+    display: flex;          /*below all are applies to container*/
+    flex-direction: row;
+    align-items: center;              
+    justify-content:space-around; /* start, end, space around, space evenly, center, space-between*/
+}
+.box1 > div {
+    border: solid 2px aqua;
+    border-radius: 5px;
+}
+.one2{
+    flex: 0 0 100px;
+}
+.two2{
+    flex: 0 0 100px;
+    align-self: flex-start;/*align-self applies to items,individual positioning*/
+}
+.three2{
+    flex: 0 0 100px;
+}
