@@ -1,0 +1,67 @@
+<! DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-sm-6 col-ig-4"> 
+                    1 of 3
+                </div>
+                <div class="col col-md-2 col-ig-4">
+                    2 of 3
+                </div>
+                <div class="col-4 c0l-sm col-md-4">
+                    3 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    1 of 2
+                </div>
+                <div class="col-6">
+                    2 of 2
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+<!-- bootstrap has 12 unit structure for row,
+col-n here n represents how much space it will take formula is n/12.
+col-auto takes only needed space to fit content.
+only col takes all remaining space.
+class="row" makes flex box and in it flex items.
+col-sm-n is used for mobile landscape device breakpoint >=576px
+col-n mobile device >=0px
+col-md-n tablet symbol= md >=768px
+col-lg-n  desktop >=992
+col-xl-n extra large desktop >=1200px 
+col-xxl-n extra extra large desktop >=1400px 
+
+mobile first approach 
+--first start creating webpages according to mobile devices
+
+align-items: start, centre ,end 
+   vertical align of cols inside row when extra height is available.
+     synatx e.g class="row align-items-end" only on container
+
+align-self:  start, centre ,end 
+    vertical align of cols inside row when extra height is available. 
+    only applied to items,
+        syntax e.g class="align-self-centre" 
+
+justify-content:  start, centre ,end
+    horizontal alignment of the columns inside row when extra width.
+        syntax e.g class="row justify-content-centre"
+    
+offset-n is used to set an empty space before a column.
+n is the value of units to be set empty.
+offset can be used with breakpoints like offset-md-n -->
