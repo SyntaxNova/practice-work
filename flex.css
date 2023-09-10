@@ -1,3 +1,4 @@
+/*filler*/
 .container{
     border: dotted 2px aqua;
     width: 500px;
@@ -21,9 +22,15 @@
     flex-grow: 2;
 }
 
+/*filler*/
+/*filler*/
+
+/*filler*/
+/*filler*/
 
 
 
+/*filler*/
 /*flex container*/
 .box{ /*deficent space*/
     border: dotted 2px aqua;
@@ -50,10 +57,10 @@
     flex-shrink: 0;
 }
 
+/*filler*/
 
 
-
-
+/*filler*/
 
 .box1{  /* available space*/
     border: dotted 2px aqua;
@@ -77,3 +84,8 @@
 .three2{
     flex: 0 0 100px;
 }
+
+
+/*filler*/
+/*filler*/
+/*filler*/
